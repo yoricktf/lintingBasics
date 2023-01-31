@@ -13,5 +13,8 @@ body {
 
 .rotate {
   transform: rotate(180deg);
-  transition: transform .2s ease-in-out;
+}
+
+svg {
+  transition: transform 0.2s ease-in-out;
 }
